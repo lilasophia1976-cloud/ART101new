@@ -1,13 +1,89 @@
 body {
-    background: #e1f3f1;
+    background: hsl(173, 95%, 44%);
     padding: 70px;
 }
 h1,
 h2,
 h3 {
     color: #1d1184;
-    font-family: sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 img {
     width: 200px;
+}
+
+#page {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: #ff1ba0;
+    padding: 30px;
+}
+
+#introduction {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: chartreuse;
+    padding: 10px;
+}
+
+#profile {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: rgb(59, 255, 245);
+    padding: 0px;
+}
+#exercises {
+    max-width: 900px;
+    margin: 0 auto 0 auto;
+    background: chartreuse;
+    padding: 0px;
+    border-right: 40px solid #1d1184
+}
+#introduction {
+    background: #f3f7ff;
+    padding: 20px;
+    border-left: 20px solid #1d1184;
+    flex: 2;
+}
+
+#introduction h2 {
+    font-style: italic;
+    margin-top: 0;
+}
+
+#introduction p {
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+#profile {
+    text-align: center;
+    flex: 1;
+}
+
+#profile img {
+    width: 220px;
+    border-radius: 12px;
+}
+
+#profile p {
+    font-size: 90%;
+}
+.navigation {
+    background: #fff7e8;
+    padding: 20px;
+    border-radius: 1px;
+}
+
+.navigation h2 {
+    margin-top: 0;
+}
+
+navigation li {
+    margin-bottom: 12px;
+}
+
+.navigation a {
+    color: #1d1184;
+    font-weight: bold;
 }
