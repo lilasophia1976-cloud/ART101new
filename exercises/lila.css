@@ -9,10 +9,11 @@ h1 {font-family:Verdana, Geneva, Tahoma, sans-serif;}
 #page {
     max-width: 900px;
     margin: 0 auto 0 auto;
-    background: blue);
+    background: blue;
     padding: 30px;
 }
 #purple-box {max-width: 900px;
     margin: 0 auto 0 auto;
     background: rgb(208, 130, 253);
     padding: 30px;}
+
