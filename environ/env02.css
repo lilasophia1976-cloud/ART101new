@@ -3,4 +3,16 @@ html {background-image: url("environ-images/environ-02.png"); color:chartreuse; 
 #topping {
     background:blue;
     padding:30px}
-div {background-image: url(environ-images/environ-02head.png);}
+
+
+    div {background-image: url(environ-images/environ-02head.png);}
+#paragraph {
+    background:grey;
+    max-width:fit-content;
+    padding:9px
+}
+#images {
+    background: chartreuse;
+    max-width:700px;
+    padding: 9px;
+}
