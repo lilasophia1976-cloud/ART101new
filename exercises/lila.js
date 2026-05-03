@@ -5,5 +5,6 @@ $("#needy-button") .click( function() {
  count= count + 1;
  $ ("#needy-button") .html("You clicked me " + count+ " "+"times");
     $("#needy-button").css( "background-color", colors [count-1]);
+    if (count==4) { count=0;}
 
 });
