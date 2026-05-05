@@ -1,0 +1,64 @@
+
+html {background-color: rgb(0, 0, 0);  color:black;font-family: Alucrads;}
+#topping {
+    background:rgb(36, 36, 36);
+    padding:30px}
+
+
+    div {background-image: url(environ-images/environ-02head.png);}
+#paragraph {
+    background:grey;
+    max-width:fit-content;
+    padding:30px;
+    margin: 20px;
+
+}
+#images {
+    background: aqua;
+    padding: 9px;
+    max-width:fit-content
+}
+@font-face {
+    font-family: alucrads;
+    src: url(Alucrads.otf);
+}
+
+#heading{
+    font-size: 25px;
+    padding:0px
+
+}
+
+#clickable{
+    background: grey;
+
+}
+h1 {
+    align-content: center;
+    
+
+}
+
+.container{
+    display:flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin: 20px 0 25px 0;
+
+}
+#text-box2 {
+    background:aqua;
+    max-width: fit-content;
+    padding: 30px;
+    margin: 20px
+
+}
+#text-box2 p {
+    background: purple;
+    padding: 10px;
+    max-width: fit-content
+}
+#click-1 {
+    background: grey;
+}
+

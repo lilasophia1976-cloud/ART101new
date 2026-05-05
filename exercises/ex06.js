@@ -12,7 +12,7 @@ let mood="neutral";
 function makeImage( colorToMatch) { 
     // what the function actually does
     if ( colors[colorCount]== colorToMatch ) {
-        $("body").append("<img width=40 src='Moth-orchid.jpg'>");
+        $("body").append("<img width=50 src='Moth-orchid.jpg'>");
     }
 } 
 
