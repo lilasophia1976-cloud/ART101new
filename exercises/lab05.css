@@ -1,0 +1,10 @@
+html {
+    background: rgb(150, 150, 240);
+    font-color: rgb(93, 93, 93);
+
+}
+#top {
+    background: grey;
+    padding: 12px;
+    margin: fit-content;
+}

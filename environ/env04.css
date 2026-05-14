@@ -1,11 +1,11 @@
 
-html {background-color: rgb(0, 0, 0);  color:black;font-family: Alucrads;}
+html {background-color: rgb(0, 0, 0);  color:black;font-family:}
 #topping {
     background:rgb(36, 36, 36);
     padding:30px}
 
-
     div {background-image: url(environ-images/environ-02head.png);}
+
 #paragraph {
     background:grey;
     max-width:fit-content;
@@ -18,10 +18,7 @@ html {background-color: rgb(0, 0, 0);  color:black;font-family: Alucrads;}
     padding: 9px;
     max-width:fit-content
 }
-@font-face {
-    font-family: alucrads;
-    src: url(Alucrads.otf);
-}
+
 
 #heading{
     font-size: 25px;
@@ -61,7 +58,26 @@ h1 {
 #click-1 {
     background: grey;
 }
-html {
-  cursor: url('alien.jpg'),auto;
+
+#output {
+    background: white;
+    font-size: 25px;
+    max-width:fit-content;
+    padding: 20px;
+    margin: 12px
+}
+
+
+
+.bottom-chunk {
+    display: flex;
+    padding: 12px;
+    margin: 20px;
+
+}
+
+#good-button {
+    margin:12px;
+
 }
 
