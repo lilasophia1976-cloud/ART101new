@@ -37,6 +37,6 @@ $(document).mousemove(function (event) {
         $("#creature").css ({
             left: event.pageX - $("#scene").offset().left + 30,
             top: event.pageY - $("#scene").offset().top +30
-        });
+        })
     }
 });
