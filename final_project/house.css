@@ -1,0 +1,89 @@
+body{
+    background: grey;
+}
+#counter{
+    background:green;
+    position: absolute;
+    top:5px;
+    right:5px;
+
+}
+.page{
+     border: 1px solid #2222dd;
+     width: 600px; 
+     height: 500px;
+     margin: auto;
+     position: relative;
+   
+}
+#instructions{
+    background: beige;
+    width: fit-content;
+    position: relative;
+    right:50px;
+    top: 40px;
+}
+
+#click_here{
+    position:absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+
+#room1{
+     background: rgb(184, 77, 77);
+
+}
+
+.doors{
+    background: brown;
+    width: fit-content;
+    position:absolute;
+}
+#door1{
+    bottom: 20px;
+}
+#door2{
+    bottom: 20px;
+    left: 50px;
+}
+
+#door3{
+    bottom: 20px;
+    left: 100px;
+}
+
+#door4{
+    bottom: 20px;
+    left: 150px;
+}
+
+
+#room2{
+    background:pink;
+
+
+}
+
+#d1{
+    bottom: 20px;
+}
+#d2{
+    bottom: 20px;
+    left: 50px;
+}
+
+#d3{
+    bottom: 20px;
+    left: 100px;
+}
+
+#room3{
+    background: rgb(34, 176, 77);
+
+}
+
+#room4{
+    background: rgb(168, 94, 168)
+}
