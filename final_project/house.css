@@ -6,8 +6,20 @@ body{
     position: absolute;
     top:5px;
     right:5px;
+    height:300px;
 
 }
+.key{
+    margin: auto;
+    position: relative;
+}
+#k1{
+    position: absolute;
+    margin:auto;
+
+}
+
+
 .page{
      border: 1px solid #2222dd;
      width: 600px; 
@@ -61,22 +73,18 @@ body{
 
 
 #room2{
-    background:pink;
-
+    background-image: url(images/Screenshot\ 2026-06-03\ at\ 3.36.28\ AM.png);
+    background-position: center;
+    
 
 }
 
-#d1{
-    bottom: 20px;
-}
-#d2{
-    bottom: 20px;
-    left: 50px;
-}
-
-#d3{
-    bottom: 20px;
-    left: 100px;
+#item{
+    bottom: 100px;
+    right:100px;
+    width: 60px;
+    height:40px;
+    border: 1px solid blue;
 }
 
 #room3{
@@ -84,6 +92,3 @@ body{
 
 }
 
-#room4{
-    background: rgb(168, 94, 168)
-}
