@@ -12,32 +12,50 @@
         <h1> our-spooky-house</h1>
     </div>
 
-    <div id="counter">
-      <p>key counter<p>
-        <div class="key">
-            <div id="k1">
+    <div id="counter" >
+      <p id="counter-message">key counter</p>
+       
+            <div id="k1" class="key hidden">
             </div>
 
-            <div id="k2" hidden>
+            <div id="k2"  class="key hidden">
             </div>
 
-            <div id="k3" hidden>
-            </div>
-        </div>
+            <div id="k3"  class="key hidden">
+           </div>
 
+    </div>
+     <div id="counter2">
+      <p id="ghost-message">ghost counter</p>
+       
+            <div id="g1" class="ghost hidden">
+            </div>
+
+            <div id="g1"  class="ghost hidden">
+            </div>
+
+            <div id="g3"  class="ghost hidden">
+           </div>
+
+    </div>
+    <div id="gameover" class="page hidden">
+        <p>you lost<p>
     </div>
 
     <div id="starter" class="page">
             <div id="instructions">
                     <p> how to play:<p>
-                    <p> lorem ipsum<p>
+                    <p> click doors and <p>
+                        find the keys<p>
+                        dont let the ghosts<p>
+                        get you!
             </div>
             <div id="click_here" >
                 <p>start button<p>
             </div>
     </div>
-            <div id="room1" class="page" hidden>
-                <p>writingsomestuff<p>
+            <div id="room1" class="page room" hidden>
+                <p>picture of spooky hallway<p>
                    <div id="door1" class="doors">
                      <p>door 1<p> </div>
                  <div id="door2" class="doors">
@@ -48,25 +66,35 @@
                      <p>door4<p></div> 
             </div>
 
-            <div id="room2" class="page" hidden>
-                <p> this is room#2<p>
-                        <div id="item"onclick="showElement()" >
-                            <p>
+            <div id="room2" class="page room" hidden>
+                <p> <mark>this is room#2<mark><p>
+                        <div id="item1" key="k1" class="item key">
+                          
                         </div>
-                <div id="turn_back" class="doors">
+                <div id="door2leave2" class="doors">
                     <p>door2leave<p>
                 </div>
-                
+              
                  
             </div>
-            <div id="room3" class="page" hidden>
-                <p>this is room#3<p>
-                <div id="door2leave" class="doors">
-                <p>door2leave<p>
+            <div id="room3" class="page room" hidden>
+                <p>this is room#3</p>
+                    
+                <div id="door2leave3" class="doors">
+                <p>door2leave</p>
                 </div>
+                 <div id="item2" key="k2" class="item key"></div>
             </div>
-            <div id="room4" class="page" hidden>
+            <div id="room4" class="page room" hidden>
                 <p>this is room#4<p>
+                    
+                <div id="door2leave4" class="doors">
+                    <p>door2leave<p>
+                </div>
+                <div id="item3" ghost="g1" class="item2 ghost"></div>
+                <div id="new" class="doors hidden">
+                    <p>secret door!</p>
+                </div>
             </div>
 
     
